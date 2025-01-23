@@ -15,4 +15,5 @@
 
 # [Alacritty](https://github.com/alacritty/alacritty/blob/master/INSTALL.md#debianubuntu)
 * make primary dropdown terminal [https://github.com/nik-kita/alacritty-dropdown](https://github.com/nik-kita/alacritty-dropdown)
+* bind `alacrityy-dropdown` command to some shortcut
   
