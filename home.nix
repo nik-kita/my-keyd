@@ -41,7 +41,44 @@
     # # the Nix store. Activating the configuration will then make '~/.screenrc' a
     # # symlink to the Nix store copy.
     # ".screenrc".source = dotfiles/screenrc;
+    ".alacritty-dropdown.toml".text = ''
+[cursor]
+  style = { shape = "Underline" }
+  thickness = 0.3
 
+[mouse]
+  hide_when_typing = true
+
+[[keyboard.bindings]]
+  key = "Q"
+  mods = "Control"
+  action = "Quit"
+
+[[keyboard.bindings]]
+  key = "V"
+  mods = "Alt"
+  action = "ToggleViMode"
+
+[[keyboard.bindings]]
+  key = "T"
+  mods = "Control"
+  action = "CreateNewTab"
+
+[font]
+size = 9
+
+[window]
+decorations = "None"
+opacity = 0.9
+
+[window.dimensions]
+columns = 160
+lines = 32
+
+[window.position]
+x = 80
+y = 20
+    '';
     # # You can also set the file content immediately.
     # ".gradle/gradle.properties".text = ''
     #   org.gradle.console=verbose
